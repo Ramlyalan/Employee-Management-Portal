@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Employee</title>
+</head>
+<body>
+    <h1>Edit Employee</h1>
+    <form method="POST">
+        Name: <input type="text" name="name" value="{{ emp.name }}"><br>
+        Email: <input type="text" name="email" value="{{ emp.email }}"><br>
+        Department: <input type="text" name="department" value="{{ emp.department }}"><br>
+        <input type="submit" value="Update">
+    </form>
+    <a href="/">Back to Home</a>
+</body>
+</html>
